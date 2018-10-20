@@ -17,8 +17,8 @@ l=n-1;
         for(int j=i;j<l-i;j++)
         {temp=m[j][i];
         m[j][i]=m[i][l-j];
-         m[i][l-j]=m[j][l-i];
-           m[j][l-i]=m[l-i][j];
+         m[i][l-j]=m[l-j][l-i];
+           m[l-j][l-i]=m[l-i][j];
            m[l-i][j]=temp;
         }
     }
