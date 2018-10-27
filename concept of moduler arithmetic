@@ -1,0 +1,11 @@
+We generally saw in most of our programming tests there is a constraint to solve your question in mod(10^9+7).why this statement is so popular?? its just that it is beyond range of long long ,now you should have something to deal with these type of problems.
+In solving these type of cases we generally use the concept of modulr arithmetic which provides us basic and derived equation which is helpful to solve these kind of problems.
+1).(a+b)mod p=((a mod p)+(b mod p))mod p
+2).(a*b)mod p=((a mod p)*(b mod p))mod p
+3).(a/b)mod p=?
+to understand this equation there is need to understand concept of modular inverse.
+MODULAR INVERSE:
+
+a)Modular inverse of A(mod C)is A^-1.
+b)(A*A^-1)modC=1
+c)only number coprime to C.
