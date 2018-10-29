@@ -1,0 +1,10 @@
+what is an API?
+Application program interface (API) in naive language if i wanna tell what API is…I will consider API as the manager of Server Computer. When as client from our web browser we send a request to fetch some data through internet first request goes to API which helps the server to get data from backend nd return data to client.
+It is most basic explanation of API which acts as interface between various application.
+For eg. if we like some video or audio on youtube and we want to share that video on facebook then API helps us by acting act as interface between two different application nd helps to share that video on facebook.
+
+
+HTTP methods (basic) which we generally use like:
+1)GET: If you want to update any existing file or want to use any existing file then get command is used. For Eg.you are surfing any website and you open various tabs then return if you want to go at certain tab ,you just need to put slash and give name of tab , At that moment GET command is being used.
+2)POST:If you want to create new database then POST command is being used. For eg. if you want to register somewhere your account and you have to fill your details then your new account is created and at that moment POST command is being used.
+3):DELETE:If you want to delete some data then DELETE command is being used.
