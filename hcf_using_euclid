@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int gcd(int a,int b)
+{int m,k;
+	if(a>b)
+	{m=b;k=a;}else
+	{m=a;k=b;}
+	if(m==0){return k;}
+	return gcd(k%m,m);
+}
+
+int main() {
+	int a,b,g;
+	cin>>a>>b;
+	g=gcd(a,b);
+	cout<<g;
+	return 0;
+}
