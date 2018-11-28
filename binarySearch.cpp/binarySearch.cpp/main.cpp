@@ -5,8 +5,11 @@ int main(void)
 {
     int a[50],first=0,last=0;
     int n,search;
+    cout<<"enter no of elements";
     cin>>n;
+    cout<<"enter elements";
     for(int i=0;i<n;i++)cin>>a[i];
+    cout<<"enter search element":
     cin>>search;
     first=0;
     last=n-1;
