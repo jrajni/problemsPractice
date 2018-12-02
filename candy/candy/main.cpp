@@ -1,3 +1,4 @@
+//solution of the problem : https://www.codechef.com/problems/CANDY123
 #include <iostream>
 using namespace std;
 int main(void)
