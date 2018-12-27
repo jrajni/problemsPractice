@@ -1,3 +1,4 @@
+//prime no using square root
 #include<math.h>
 #include<iostream>
 using namespace std;
